@@ -10,7 +10,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
 const __dirname = path.dirname(__filename); // get the name of the directory
 
-const PORT = 3000
+// const PORT = 3000
 
 const app = express();
 
@@ -77,6 +77,6 @@ app.post('/', async (req, res) => {
 
 
 
-app.listen(PORT, () => {
-    console.log(`server has started on http://localhost:${PORT}`)
-})
+// app.listen(PORT, () => {
+//     console.log(`server has started on http://localhost:${PORT}`)
+// })
