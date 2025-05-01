@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <title>H&S Systems - Services Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="services.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <li><img src="assets/imglogo.png" alt="Logo" id="logo-img" /></li>
+    <li id="comp-name">
+      <h1>H&S Systems</h1>
+    </li>
+    <ul>
+      <li><button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar"><svg
+            xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9">
+            <path
+              d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z" />
+          </svg></button></li>
+      <li id="home"><a href="./index.html" class="nav-links">Home</a></li>
+      <li id="about"><a href="./about.html" class="nav-links">About</a></li>
+      <li><button id="enquire-btn" class="btn"><a href="./enquire.html">Enquire Now</a></button></li>
+    </ul>
+  </nav>
+
+  <div id="overlay" onclick="closeSidebar()"></div>
+
+  <header>
+    <li><img src="assets/imglogo.png" alt="Logo" id="logo-img-resp" /></li>
+    <li>
+      <h1 id="comp-name-resp">H&S Systems</h1>
+    </li>
+    <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false"
+      aria-controls="navbar">
+      <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9">
+        <path
+          d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z" />
+      </svg>
+    </button>
+  </header>
+
+  <div class="services-body">
+
+    <b style="font-size: 3em;">Our Services</b>
+
+    <ol>
+      <li id="service1"><b>Customized Printed Packaging Consultation (Free Service)</b><br>
+        <p>At H&S Systems, we offer expert consultation on custom printed packaging solutions tailored to your needs.
+          Whether you're launching a new product or rebranding, our specialists guide you through material selection,
+          design choices, and cost-effective printing techniques. We focus on aesthetics, durability, and functionality,
+          ensuring your packaging stands out in the market. This service is completely free, allowing you to explore
+          various options before making a decision. Our commitment to innovation ensures that we help you create
+          packaging that reflects your brand’s identity while maintaining practicality and cost efficiency.</p>
+      </li>
+      <li id="service2"><b>Full-Service Job Contracts with Complete Responsibility</b><br>
+        <p>We provide comprehensive printing and packaging services under a total job contract, where we handle every
+          aspect of production. From design to delivery, H&S Systems takes full responsibility, ensuring seamless
+          execution and on-time completion. Our all-inclusive approach means you don’t have to worry about coordinating
+          multiple vendors—we manage everything, including raw materials, labor, and quality control. Once you place an
+          order, we absorb any fluctuations in material costs, providing you with budget stability.</p>
+      </li>
+      <li id="service3"><b>Offset & Digital Printing Services</b><br>
+        <p>Our printing capabilities cover a wide range of techniques, including offset printing, digital printing,
+          silk-screen printing, flexo printing, gravure printing, and Xerox offset printing. Whether you need
+          high-volume production runs or short-run prints with quick turnaround times, we have the right technology to
+          meet your needs. Our advanced equipment and skilled team guarantee vibrant colors, crisp details, and
+          long-lasting prints.</p>
+      </li>
+      <li id="service4"><b>Specialty Coatings & Finishes</b><br>
+        <p>We offer a variety of premium finishing options to enhance the visual appeal and durability of your printed
+          materials. Our services include lamination, varnishing, UV coating, and special effects like Met Pet, DripOff,
+          foil stamping, and embossing. These finishes not only improve the aesthetics of your packaging but also
+          provide added protection against wear and tear.</p>
+      </li>
+      <li><b>Post-Press Fabrication & Binding</b><br>
+        <p>At H&S Systems, we handle all post-press services, including punching, pasting, and a variety of binding
+          options. Whether you need perfect binding for books, wire-o binding for reports, or saddle stitching for
+          brochures, we ensure a professional finish. Our fabrication services also include die-cutting for unique
+          packaging designs and intricate cutouts.</p>
+      </li>
+      <li><b>Custom Box & Carton Manufacturing</b><br>
+        <p>We specialize in designing and manufacturing custom boxes and cartons to meet your packaging requirements.
+          From sturdy corrugated boxes to premium board-based cartons, we provide tailored solutions that ensure maximum
+          product protection. Whether you need shipping boxes, display packaging, or branded retail boxes, we offer
+          high-quality materials and structural designs that enhance functionality and aesthetics.</p>
+      </li>
+      <li><b>Label & Sticker Printing</b><br>
+        <p>We produce high-quality labels and stickers in various materials, including paper, vinyl, and transparent
+          films. Whether you need product labels, barcode stickers, or decorative decals, our printing technology
+          ensures crisp, fade-resistant designs. We offer customization options such as waterproof coatings, scratch
+          resistance, and strong adhesives.</p>
+      </li>
+      <li><b>Promotional & Marketing Material Printing</b><br>
+        <p>Boost your brand visibility with our professionally printed marketing materials, including posters, leaflets,
+          brochures, and letterheads. Our team ensures high-quality prints with vibrant colors and sharp details, making
+          your marketing materials stand out.</p>
+      </li>
+      <li><b>Carry Bags & Packaging Accessories</b><br>
+        <p>We manufacture a wide range of carry bags, including paper bags, laminated bags, and eco-friendly
+          alternatives. Our customized carry bags serve as a perfect branding tool for businesses looking to create a
+          lasting impression. Additionally, we provide packaging accessories such as inserts, partitions, and protective
+          layers to enhance product safety during transit.</p>
+      </li>
+      <li><b>Calendar & Stationery Printing</b><br>
+        <p>Our services include printing high-quality wall calendars, table calendars, notebooks, and corporate
+          stationery. Whether for promotional use or internal branding, our stationery printing solutions offer a
+          professional touch to your business. We provide custom designs, premium paper options, and a range of binding
+          styles to suit your specific needs.
+
+        </p>
+      </li>
+    </ol>
+
+  </div>
+
+  <footer>
+    <img src="assets/foot.png" alt="comp-logo" id="footer-img">
+    <div class="contact-details">
+      <div class="mobile">
+        <img src="assets/call.svg" alt="callsvg" />
+        <p>+91 9830857039 | +91 6291550758 <br> +91 9038891850 | +91 9836244317</p>
+      </div>
+      <div class="email">
+        <img src="assets/mail.svg" alt="mailsvg" />
+        <p style="width: 14em;">hssystems.2002@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

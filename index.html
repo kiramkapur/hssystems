@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+  <title>H&S Systems</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+
+
+  <nav id="navbar">
+    <li><img src="assets/imglogo.png" alt="Logo" id="logo-img" /></li>
+    <li id="comp-name">
+      <h1>H&S Systems</h1>
+    </li>
+    <ul>
+      <li><button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar"><svg
+            xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9">
+            <path
+              d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z" />
+          </svg></button></li>
+      <li id="about"><a href="./about.html" class="nav-links">About</a></li>
+      <li id="services"><a href="./services.html" class="nav-links">Services</a></li>
+      <li><button id="enquire-btn" class="btn"><a href="./enquire.html">Enquire Now</a></button></li>
+    </ul>
+  </nav>
+
+  <div id="overlay" onclick="closeSidebar()"></div>
+
+  <header>
+    <li><img src="assets/imglogo.png" alt="Logo" id="logo-img-resp" /></li>
+    <li>
+      <h1 id="comp-name-resp">H&S Systems</h1>
+    </li>
+    <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false"
+      aria-controls="navbar">
+      <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9">
+        <path
+          d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z" />
+      </svg>
+    </button>
+  </header>
+
+  <div class="headbar-parent">
+    <div class="headbar-box">
+      <p class="headbar-text">
+        QUALITY CUSTOMIZED PRINTING SOLUTIONS <br />
+        FOR MORE THAN 20 YEARS
+      </p>
+    </div>
+  </div>
+
+  <div class="service-card-area-parent">
+    <div class="service-card-area">
+      <div class="service-card">
+        <img src="assets/imglogo.png" alt="" />
+        <div class="all-text">
+          <h1>C P P C  (Free Service)</h1>
+          <p>
+            At H&S Systems, we offer expert consultation on custom printed packaging solutions tailored to your needs.
+            Whether you're launching a new product or rebranding, our specialists guide you through material selection,
+            design choices, and cost-effective printing techniques. We focus on aesthetics, durability, and
+            functionality,
+            ensuring your packaging stands out in the market. This service is completely free, allowing you to explore
+            various options before making a decision. Our commitment to innovation ensures that we help you create
+            packaging that reflects your brand’s identity while maintaining practicality and cost efficiency.
+          </p><a href="./services.html#service1">Learn more</a>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="assets/imglogo.png" alt="" />
+        <div class="all-text">
+          <h1>Specialty Coatings & Finishes</h1>
+          <p>
+            We offer a variety of premium finishing options to enhance the visual appeal and durability of your printed
+            materials. Our services include lamination, varnishing, UV coating, and special effects like Met Pet,
+            DripOff,
+            foil stamping, and embossing. These finishes not only improve the aesthetics of your packaging but also
+            provide added protection against wear and tear.
+          </p><a href="./services.html#service2">Learn more</a>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="assets/imglogo.png" alt="" />
+        <div class="all-text">
+          <h1>Offset & Digital Printing Services</h1>
+          <p>
+            Our printing capabilities cover a wide range of techniques, including offset printing, digital printing,
+            silk-screen printing, flexo printing, gravure printing, and Xerox offset printing. Whether you need
+            high-volume production runs or short-run prints with quick turnaround times, we have the right technology to
+            meet your needs. Our advanced equipment and skilled team guarantee vibrant colors, crisp details, and
+            long-lasting prints.
+          </p><a href="./services.html#service3">Learn more</a>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="assets/imglogo.png" alt="" />
+        <div class="all-text">
+          <h1>Specialty Coatings & Finishes</h1>
+          <p>
+            We offer a variety of premium finishing options to enhance the visual appeal and durability of your printed
+            materials. Our services include lamination, varnishing, UV coating, and special effects like Met Pet,
+            DripOff,
+            foil stamping, and embossing. These finishes not only improve the aesthetics of your packaging but also
+            provide added protection against wear and tear.
+          </p><a href="./services.html#service4">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr style="background-color: var(--primary-color);height: 2px;width: 90%;margin-top: 2rem;border-radius: 5px;">
+
+  <div class="testimonials">
+    <h3>Testimonials coming soon!</h3>
+  </div>
+
+  <footer>
+    <img src="assets/foot.png" alt="comp-logo" id="footer-img">
+    <div class="contact-details">
+      <div class="mobile">
+        <img src="assets/call.svg" alt="callsvg" />
+        <p>+91 9830857039 | +91 6291550758 <br> +91 9038891850 | +91 9836244317</p>
+      </div>
+      <div class="email">
+        <img src="assets/mail.svg" alt="mailsvg" />
+        <p style="width: 14em;">hssystems.2002@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+</body>
+
+</html>

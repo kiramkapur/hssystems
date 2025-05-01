@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --primary-color: #084ea2;
+    --primary-dark-color: #031933ad;
+    --secondary-color: #c3deff;
+    --hover-color: #e7eaee;
+}
+
+.about-body{
+    min-height: 10rem;
+    padding: 7.5% 10%;
+}
+
+.about-body ul li{
+    display: flex;
+    gap: 1%;
+    align-items: baseline;
+}
+
+.about-body ul li b{
+    font-size: 1.5em;
+}
+
+.about-body ul li p{
+    width: 70%;
+    font-size: larger;
+}
+
+#p{
+    font-size: 150%;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+
+}

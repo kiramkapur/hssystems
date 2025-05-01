@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>H&S Systems - Enquiry Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="enquire.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+   
+  <nav id="navbar">
+    <li><img src="assets/imglogo.png" alt="Logo" id="logo-img" /></li>
+    <li id="comp-name"><h1>H&S Systems</h1></li>
+    <ul>
+      <li><button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9"><path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg></button></li>
+      <li id="home"><a href="./index.html" class="nav-links">Home</a></li>
+      <li id="about"><a href="./about.html" class="nav-links">About</a></li>
+      <li id="services"><a href="./services.html" class="nav-links">Services</a></li>
+    </ul>
+  </nav>
+
+  <div id="overlay" onclick="closeSidebar()"></div>
+
+  <header>
+    <li><img src="assets/imglogo.png" alt="Logo" id="logo-img-resp" /></li>
+    <li><h1 id="comp-name-resp">H&S Systems</h1></li>
+    <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+      <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9"><path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
+    </button>
+  </header>
+
+
+    <!-- ENQUIRY FORM HERE -->
+
+    <div class="form-box">
+      <h1>Enquiry</h1>
+      <hr>
+      <form action="/" method="POST" class="form">
+        <div class="form-left-col">
+          <input type="text" name="name" placeholder="Name" id="name" required>
+          <input type="email" name="email" placeholder="Email" id="email" required>
+          <input type="tel" name="phone" placeholder="Phone" id="phone" required>
+        </div>
+
+        <div class="form-right-col">
+          <textarea name="message" placeholder="Message" id="message" required></textarea>
+          <button id="form-submit-btn" class="btn">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- END OF ENQUIRY FORM -->
+
+    <footer>
+      <img src="assets/foot.png" alt="comp-logo" id="footer-img">
+      <div class="contact-details">
+          <div class="mobile">
+              <img src="assets/call.svg" alt="callsvg" />
+              <p>+91 9830857039 | +91 6291550758 <br> +91 9038891850 | +91 9836244317</p>
+          </div>
+          <div class="email">
+              <img src="assets/mail.svg" alt="mailsvg" />
+              <p style="width: 14em;">hssystems.2002@gmail.com</p>
+          </div>
+      </div>
+    </footer>
+
+    <!-- <div class="base">
+        <h1>Enquiry</h1>
+        <hr/>
+        <div class="form-base">
+          <form action="" class="form">
+            <div class="form-left">
+                <input placeholder="Name" type="text" name="name" id="name" class="form-contents" required/>
+                <input placeholder="Email" type="email" name="email" id="email" class="form-contents" required/>
+                <input placeholder="Phone Number" type="tel" name="phone" id="phone" class="form-contents" required/>
+            </div>
+            <div class="form-right">
+                <textarea placeholder="Enquiry Description" name="desc" id="desc" class="form-contents" required></textarea>
+                <button id="form-submit-btn" class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div> -->
+    
+</body>
+</html>
